@@ -1,0 +1,161 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.App {
+  text-align: center;
+}
+
+#sign{
+  padding-left: 10px;
+}
+.img{
+  margin-left:10px;
+}
+.navbar{
+ 
+  height:60px;
+ display:flex;
+ justify-content:start;
+  background-color: rgb(0, 0, 0);
+  align-items:center;
+  font-size:1.5rem;
+  
+}
+.navbar-toggle{
+  list-style-type: none;
+}
+.ms{
+  margin-left: 190px;
+}
+.menu-bars{
+  font-size:2rem;
+  background: none;
+}
+.nav-menu{
+  display:block;
+  background-color: black;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  position:fixed;
+  top:0px;
+  /* left:-100%; */
+  transition:850ms;
+}
+.nav-menu.active{
+  left:0px;
+  transition:350ms;
+  left:-100%;
+}
+.nav-text{
+  display:flex;
+  text-align: left;
+  padding:20px 25px 8px 16px;
+  list-style-type: none;
+  height:30px;
+}
+.nav-text2{
+  padding-top: 100px;
+  display:flex;
+  text-align: left;
+  padding:20px 25px 8px 16px;
+  list-style-type: none;
+  height:30px;
+}
+
+.nav-text a{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 14px;
+}
+.nav-text2 a{
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 14px;
+}
+/*  */
+span{
+  margin-left: 20px;
+}
+.next{
+  margin-left:210px;
+  margin-right:20px;
+}
+.content{
+  width:200px;
+  height:300px;
+  border: 1px solid black;
+  /* margin-left:250px; */
+  margin-top: 10px;
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+  overflow: hidden;
+ 
+  
+  /* display:flex;
+  flex:0.4;
+  justify-content: space-between; */
+  
+  /* padding-left:90px; */
+
+}
+#he{
+  margin-top:50px;
+}
+@media only screen and (max-width: 700px){
+  .nav-menu{
+    display:block;
+    background-color: black;
+    height:220vh;
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    top:0px;
+    /* left:-100%; */
+    transition:850ms;
+  }
+  .nav-text{
+    display:flex;
+    text-align: left;
+    padding:10px 15px 4px 8px;
+    list-style-type: none;
+    height:20px;
+  }
+  .nav-text2{
+    padding-top: 50px;
+    display:flex;
+    text-align: left;
+    padding:10px 15px 4px 8px;
+    list-style-type: none;
+    height:20px;
+  }
+  .btns{
+    margin:50px;  
+  }
+  .mg{
+    margin-top: 20px;
+  }
+  .navbar{
+    width:100%;
+  }
+}
+
+@media only screen and (max-width:360px){
+  .btns{
+    margin:50px;  
+  }
+  .mg{
+    margin-top: 20px;
+  }
+  .nav-menu{
+    width:150px;
+  }
+  .navbar{
+    width:100%;
+  }
+}
+
